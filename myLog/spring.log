@@ -1,0 +1,44 @@
+2022-06-05 === [http-nio-8001-exec-8] === INFO  === c.zhengpc.myspringboot.controller.LoginController === - 登陆成功，用户名：admin
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行ModelAndView [view="main"; model={}]
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-3] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行null
+2022-06-05 === [http-nio-8001-exec-3] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-6] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行ModelAndView [view="main"; model={}]
+2022-06-05 === [http-nio-8001-exec-6] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-1] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行null
+2022-06-05 === [http-nio-8001-exec-1] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-1] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行null
+2022-06-05 === [http-nio-8001-exec-1] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行null
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行ModelAndView [view="error"; model={timestamp=Sun Jun 05 16:36:39 CST 2022, status=404, error=Not Found, message=No message available, path=/aaa}]
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [restartedMain] === INFO  === com.zhengpc.myspringboot.MySpringBootApplication === - Starting MySpringBootApplication using Java 1.8.0_292 on zhengpengchengdeMacBook-Pro.local with PID 40003 (/Users/zhengpengcheng/work/MySpringBoot/target/classes started by zhengpengcheng in /Users/zhengpengcheng/work/MySpringBoot)
+2022-06-05 === [restartedMain] === INFO  === com.zhengpc.myspringboot.MySpringBootApplication === - The following profiles are active: dev
+2022-06-05 === [restartedMain] === INFO  === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor === - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-05 === [restartedMain] === INFO  === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor === - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-05 === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === - Tomcat initialized with port(s): 8001 (http)
+2022-06-05 === [restartedMain] === INFO  === org.apache.catalina.core.StandardService === - Starting service [Tomcat]
+2022-06-05 === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine === - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-06-05 === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === - Initializing Spring embedded WebApplicationContext
+2022-06-05 === [restartedMain] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext === - Root WebApplicationContext: initialization completed in 1128 ms
+2022-06-05 === [restartedMain] === INFO  === com.zhengpc.myspringboot.config.MyMvcConfig === - 注册拦截器
+2022-06-05 === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLiveReloadServer === - LiveReload server is running on port 35729
+2022-06-05 === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === - Tomcat started on port(s): 8001 (http) with context path ''
+2022-06-05 === [restartedMain] === INFO  === com.zhengpc.myspringboot.MySpringBootApplication === - Started MySpringBootApplication in 2.043 seconds (JVM running for 2.729)
+2022-06-05 === [http-nio-8001-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-05 === [http-nio-8001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === - Initializing Servlet 'dispatcherServlet'
+2022-06-05 === [http-nio-8001-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === - Completed initialization in 2 ms
+2022-06-05 === [http-nio-8001-exec-2] === INFO  === c.zhengpc.myspringboot.controller.LoginController === - 登陆成功，用户名：admin
+2022-06-05 === [http-nio-8001-exec-4] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行ModelAndView [view="main"; model={}]
+2022-06-05 === [http-nio-8001-exec-4] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-7] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行null
+2022-06-05 === [http-nio-8001-exec-7] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-5] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行ModelAndView [view="main"; model={}]
+2022-06-05 === [http-nio-8001-exec-5] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-3] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行null
+2022-06-05 === [http-nio-8001-exec-3] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行null
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - postHandle执行ModelAndView [view="error"; model={timestamp=Sun Jun 05 16:41:46 CST 2022, status=404, error=Not Found, message=No message available, path=/aaaa}]
+2022-06-05 === [http-nio-8001-exec-9] === INFO  === com.zhengpc.myspringboot.componet.LoginInterceptor === - afterCompletion执行异常{}
