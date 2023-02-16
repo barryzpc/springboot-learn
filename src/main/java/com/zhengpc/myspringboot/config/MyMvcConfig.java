@@ -25,7 +25,17 @@ public class MyMvcConfig implements WebMvcConfigurer {
                 //拦截所有请求，包括静态资源文件
                 .addPathPatterns("/**")
                 //放行登录页，登陆操作，静态资源
-                .excludePathPatterns("/", "/login", "/index.html", "/user/login", "/css/**", "/images/**", "/js/**", "/fonts/**");
+                .excludePathPatterns(
+                        "/",
+                        "/login",
+                        "/test/**",
+                        "/index.html",
+                        "/user/login",
+                        "/css/**",
+                        "/images/**",
+                        "/js/**",
+                        "/fonts/**"
+                );
     }
 
     @Override
@@ -41,7 +51,7 @@ public class MyMvcConfig implements WebMvcConfigurer {
      * 将自定义的区域信息解析器以组件的形式添加到容器中
      */
     @Bean
-    public LocaleResolver localeResolver(){
+    public LocaleResolver localeResolver() {
         return new MyLocalResolver();
     }
 }
